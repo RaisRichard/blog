@@ -1,0 +1,60 @@
+# build output
+dist/
+
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# jetbrains setting folder
+.idea/
+
+# My face
+public/image.jpg
+
+# My signage
+public/signed.png
+
+# Ignore all files in these directories
+src/content/education/en/*
+src/content/education/de/*
+src/content/info/en/*
+src/content/info/de/*
+src/content/interests/en/*
+src/content/interests/de/*
+src/content/languages/en/*
+src/content/languages/de/*
+src/content/professionalExperience/en/*
+src/content/professionalExperience/de/*
+src/content/skills/en/*
+src/content/skills/de/*
+src/content/profile/*
+
+# But not these files
+!src/content/education/en/example.yaml
+!src/content/education/de/example.yaml
+!src/content/info/en/example.yaml
+!src/content/info/de/example.yaml
+!src/content/interests/en/example.yaml
+!src/content/interests/de/example.yaml
+!src/content/languages/en/example.yaml
+!src/content/languages/de/example.yaml
+!src/content/professionalExperience/en/example.yaml
+!src/content/professionalExperience/de/example.yaml
+!src/content/skills/en/example.yaml
+!src/content/skills/de/example.yaml
+!src/content/profile/example.yaml
